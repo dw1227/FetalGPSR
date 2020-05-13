@@ -18,9 +18,11 @@ FetalGPS(data, saveToFile = FALSE, filename = "efwCentiles.csv")
 
     ht: Maternal Height (cm). May be left blank if not available.
 
-    parity: Number of previous deliveries (Whole number).May be left blank if not available.
+    parity: Number of previous deliveries (Whole number). May be left blank if not available.
 
-    Sex: Fetal sex (Male or Female or left blank).
+    Sex: Fetal sex (Male or Female or left blank). May be left blank if not available.
+    
+    Race: Maternal race (Black, Asian, Hispanic, White). May be left blank if not available.
 
     EFW: Estimated Fetal Weight (g) Based on Hadlock's formula; If this column is not present in the data frame,
     then the following columns must be provided to calculate EFW internally:
